@@ -4,7 +4,7 @@ This is a Simple Repository for a Eaglercraft Server!
 
 ## Setup
 
-To Get started run either run.bat (windows only) or run_unix.sh (linux & mac) to run the server
+To Get started run start.sh or start.bat to run the server
 
 ## Credits
 
