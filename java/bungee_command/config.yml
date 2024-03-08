@@ -1,6 +1,58 @@
-origin_blacklist_block_replit_clients: false
-enable_web_origin_blacklist: true
+origin_blacklist_use_simple_whitelist: false
 server_name: EaglercraftBungee Server
+token_verify: ''
+groups: {}
+servers:
+  lobby:
+    address: localhost:25569
+    restricted: false
+voice_turn_servers:
+  openrelay3:
+    password: openrelayproject
+    url: turn:openrelay.metered.ca:443?transport=tcp
+    username: openrelayproject
+  openrelay2:
+    password: openrelayproject
+    url: turn:openrelay.metered.ca:443
+    username: openrelayproject
+  openrelay1:
+    password: openrelayproject
+    url: turn:openrelay.metered.ca:80
+    username: openrelayproject
+voice_stun_servers:
+- stun:stun.l.google.com:19302
+- stun:stun1.l.google.com:19302
+- stun:stun2.l.google.com:19302
+- stun:stun3.l.google.com:19302
+- stun:stun4.l.google.com:19302
+- stun:openrelay.metered.ca:80
+enable_web_origin_blacklist: true
+origin_blacklist_simple_whitelist:
+- type the name of your client's domain here
+- (if 'origin_blacklist_use_simple_whitelist' is true)
+- g.lax1dude.net
+protocol_support_fix: false
+origin_blacklist_subscriptions:
+- https://g.lax1dude.net/eaglercraft/origin_blacklist.txt
+- https://raw.githubusercontent.com/LAX1DUDE/eaglercraft/main/stable-download/origin_blacklist.txt
+player_limit: -1
+origin_blacklist_block_invalid_origin_header: true
+voice_enabled: true
+display_ban_type_on_kick: false
+origin_blacklist_block_offline_download: false
+accept_bukkit_console_command_packets: false
+authservice:
+  authfile: auths.db
+  register_enabled: true
+  ip_limit: 0
+  join_messages:
+  - '&3Welcome to my &aEaglercraftBungee &3server!'
+  login_timeout: 30
+  enabled: false
+disabled_commands: []
+bungee_on_bungee: false
+origin_blacklist_block_replit_clients: false
+stats: 1795b100-6c57-4568-957f-810efbd77cc3
 listeners:
 - fallback_server: lobby
   tab_list: GLOBAL_PING
@@ -52,20 +104,14 @@ listeners:
       limit_lockout: 25
       lockout_duration: 900
       exceptions: []
-stats: 1795b100-6c57-4568-957f-810efbd77cc3
-groups: {}
-player_limit: -1
-servers:
-  lobby:
-    address: localhost:25569
-    restricted: false
-origin_blacklist_block_offline_download: false
-origin_blacklist_block_missing_origin_header: true
+  forward_ip_header: X-Real-IP
+  java_host: 'null'
 permissions:
   default:
   - bungeecord.command.server
   - bungeecord.command.list
   - bungeecord.command.eag.domain
+  - bungeecord.command.eag.changepassword
   admin:
   - bungeecord.command.alert
   - bungeecord.command.end
@@ -83,8 +129,4 @@ permissions:
   - bungeecord.command.eag.blockdomain
   - bungeecord.command.eag.blockdomainname
   - bungeecord.command.eag.unblockdomain
-origin_blacklist_subscriptions:
-- https://g.lax1dude.net/eaglercraft/origin_blacklist.txt
-- https://raw.githubusercontent.com/LAX1DUDE/eaglercraft/main/stable-download/origin_blacklist.txt
-display_ban_type_on_kick: false
 timeout: 30000

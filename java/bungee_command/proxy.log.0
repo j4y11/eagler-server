@@ -1,0 +1,44 @@
+07:07:52 [INFO] Enabled BungeeCord version unknown
+07:07:53 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+07:07:53 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+07:07:53 [INFO] Listening websockets on /0.0.0.0:25565
+07:07:53 [INFO] Server bans.txt changed, it will be reloaded automatically
+07:07:53 [INFO] Listening on /127.11.0.1:33071
+07:07:53 [INFO] Reload complete
+07:07:54 [SEVERE] the blacklist subscription URL 'https://raw.githubusercontent.com/LAX1DUDE/eaglercraft/main/stable-download/origin_blacklist.txt' is invalid
+07:07:54 [SEVERE] java.io.FileNotFoundException: https://raw.githubusercontent.com/LAX1DUDE/eaglercraft/main/stable-download/origin_blacklist.txt
+
+07:07:54 [SEVERE] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1994)
+
+07:07:54 [SEVERE] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+
+07:07:54 [SEVERE] 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+
+07:07:54 [SEVERE] 	at net.md_5.bungee.eaglercraft.DomainBlacklist.update(DomainBlacklist.java:153)
+
+07:07:54 [SEVERE] 	at net.md_5.bungee.eaglercraft.DomainBlacklist.init(DomainBlacklist.java:121)
+
+07:07:54 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:268)
+
+07:07:54 [SEVERE] 	at net.md_5.bungee.BungeeCord.main(BungeeCord.java:229)
+
+07:08:39 [INFO] [J4Y] <-> InitialHandler has connected
+07:08:39 [INFO] Player 'J4Y' [/0:0:0:0:0:0:0:1] has remote websocket IP: 0:0:0:0:0:0:0:1
+07:08:39 [INFO] Player 'J4Y' [/0:0:0:0:0:0:0:1] is using an offline download
+07:08:39 [INFO] [J4Y] <-> ServerConnector [lobby] has connected
+07:09:17 [INFO] [J4Y] disconnected with: [Proxy] Lost connection to server.
+07:09:17 [INFO] [J4Y] <-> DownstreamBridge <-> [lobby] has disconnected
+07:09:17 [INFO] [J4Y] -> UpstreamBridge has disconnected
+07:10:48 [INFO] [J4Y] <-> InitialHandler has connected
+07:10:48 [INFO] Player 'J4Y' [/0:0:0:0:0:0:0:1] has remote websocket IP: 0:0:0:0:0:0:0:1
+07:10:48 [INFO] Player 'J4Y' [/0:0:0:0:0:0:0:1] is using an offline download
+07:10:48 [INFO] [J4Y] <-> ServerConnector [lobby] has connected
+07:12:38 [INFO] [J4Y] disconnected with: [Proxy] Lost connection to server.
+07:12:38 [INFO] [J4Y] <-> DownstreamBridge <-> [lobby] has disconnected
+07:12:38 [INFO] [J4Y] -> UpstreamBridge has disconnected
+07:12:42 [INFO] [J4Y] <-> InitialHandler has connected
+07:12:42 [INFO] Player 'J4Y' [/0:0:0:0:0:0:0:1] has remote websocket IP: 0:0:0:0:0:0:0:1
+07:12:42 [INFO] Player 'J4Y' [/0:0:0:0:0:0:0:1] is using an offline download
+07:12:42 [INFO] [J4Y] <-> ServerConnector [lobby] has connected
+07:14:55 [INFO] [J4Y] -> UpstreamBridge has disconnected
+07:14:56 [INFO] [J4Y] <-> DownstreamBridge <-> [lobby] has disconnected
